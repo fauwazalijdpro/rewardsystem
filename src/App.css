@@ -1,0 +1,91 @@
+
+.App {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #f6f6f6;
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.month-select label {
+  font-size: 13px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.App .actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App h3 {
+    margin-bottom: 10px;
+}
+.App .select {
+  outline: 1px solid red;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #EEEEEE;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  background: #000;
+  padding: 18px 0;
+  color: #fff;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+  background: #EEEEEE;
+}
+
+.table-data, .header__item {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item {
+  text-transform: uppercase;
+}
+
+.filter__link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  padding-right: 24px;
+}
